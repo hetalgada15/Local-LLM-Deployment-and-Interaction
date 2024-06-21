@@ -23,6 +23,10 @@ Define the curl command with the appropriate arguments to send a message to the 
 curl http://localhost:11434/api/chat -d '{"model": "phi3", "messages": [{ "role": "user", "content": "what is stock market?" }]}'
 Execute the curl command using Python's subprocess module.
 
+
+curl http://localhost:11434/api/chat -d '{"model": "gemma:2b", "messages": [{ "role": "user", "content": "what is stock market?" }]}'
+Execute the curl command using Python's subprocess module.
+
 Process the output received from the LLM server:
 
 The script splits the output into lines and processes each line as a separate JSON object.
