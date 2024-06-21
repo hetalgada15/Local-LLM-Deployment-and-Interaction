@@ -5,7 +5,7 @@ import json
 curl_command = [
     'curl',
     'http://localhost:11434/api/chat',
-    '-d', '{"model": "gemma:2b", "messages": [{ "role": "user", "content": "why is the sky blue?" }]}'
+    '-d', '{"model": "gemma:2b", "messages": [{ "role": "user", "content": "what is stock market?" }]}'
 ]
 
 # Execute the curl command using subprocess
