@@ -11,6 +11,7 @@ curl command-line tool
 Setup Instructions:
 
 I have downloaded the LLM server repository that includes the Phi3, gemma:2b model using ollama run phi3 and ollama run gemma:2b locally.
+ollama run gemma:2b and ollama run phi3
 
 Then I startd the LLM server on your local machine. We can typically start it by running a command like ./start_server.sh or similar, as mentioned in the server's documentation.
 
