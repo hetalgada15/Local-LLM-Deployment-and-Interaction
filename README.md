@@ -3,7 +3,7 @@
 This script demonstrates how to interact with a local LLM (Large Language Model) server using the curl command. It also explains how to handle the output and extract meaningful information from the model's responses.
 
 Prerequisites:
-Before running this script, ensure you have the following installed:
+Before running this script, I have checked for following is installed:
 
 Python 3.x
 curl command-line tool
